@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK1</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1500" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="160" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="435" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SpaceExtensionDeviceMK1" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK2</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2550" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="210" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="455" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SpaceExtensionDeviceMK2" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK3</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="600" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="3800" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="160" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="590" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="475" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="210" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SpaceExtensionDeviceMK3" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK4</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk4.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1200" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="5050" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="160" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="980" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="495" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="370" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="70" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1.2" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SpaceExtensionDeviceMK4" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK5</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk5.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1800" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="6300" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="110" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1810" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="515" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="540" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="90" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="2.4" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SpaceExtensionDeviceMK5" />
+      <BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>  
+</Definitions>

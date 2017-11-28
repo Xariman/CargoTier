@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK1</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device MK I</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk1.dds</Icon>
+      <Size>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>50</Mass>
+      <Volume>20</Volume>
+      <Model>Models\Components\sed_component.mwm</Model>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+    </Component>
+    
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK2</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device MK II</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk2.dds</Icon>
+      <Size>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>100</Mass>
+      <Volume>20</Volume>
+      <Model>Models\Components\sed_component.mwm</Model>
+      <MaxIntegrity>150</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK3</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device MK III</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk3.dds</Icon>
+      <Size>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>50</Mass>
+      <Volume>200</Volume>
+      <Model>Models\Components\sed_component.mwm</Model>
+      <MaxIntegrity>200</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK4</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device MK IV</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk4.dds</Icon>
+      <Size>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>400</Mass>
+      <Volume>20</Volume>
+      <Model>Models\Components\sed_component.mwm</Model>
+      <MaxIntegrity>250</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SpaceExtensionDeviceMK5</SubtypeId>
+      </Id>
+      <DisplayName>Space Extension Device MK V</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\sed_component_gui_icon_mk5.dds</Icon>
+      <Size>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>800</Mass>
+      <Volume>20</Volume>
+      <Model>Models\Components\sed_component.mwm</Model>
+      <MaxIntegrity>300</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+    </Component>
+
+  </Components>
+</Definitions>

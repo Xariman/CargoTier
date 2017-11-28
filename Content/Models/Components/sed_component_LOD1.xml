@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Model Name="Default">
+  <Parameter Name="RescaleFactor">0.01</Parameter>
+  <Material Name="sed_component_texture_lod">
+    <Parameter Name="ColorMetalTexture">Textures\Models\Component\sed_component_texture_lod_cm.DDS</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Component\sed_component_texture_lod_ng.DDS</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Component\sed_component_texture_lod_add.DDS</Parameter>
+  </Material>
+</Model>

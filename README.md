@@ -1,3 +1,3 @@
 # CargoTier mod for Space Engineers
 
-Author Xariman
+© 2017 Xariman

@@ -91,11 +91,11 @@
   <PropertyGroup>
     <PostBuildEvent>rmdir  /S /Q %25USERPROFILE%25\AppData\Roaming\SpaceEngineers\Mods\$(TargetName)
 xcopy $(ProjectDir)Content\* %25USERPROFILE%25\AppData\Roaming\SpaceEngineers\Mods\$(TargetName)\ /Y /S /EXCLUDE:$(ProjectDir)exclude_files.txt
-xcopy $(ProjectDir)*.cs %25USERPROFILE%25\AppData\Roaming\SpaceEngineers\Mods\$(TargetName)\Data\Scripts\$(ProjectName)\ /Y /S /EXCLUDE:$(ProjectDir)exclude_files.txt
+rem xcopy $(ProjectDir)*.cs %25USERPROFILE%25\AppData\Roaming\SpaceEngineers\Mods\$(TargetName)\Data\Scripts\$(ProjectName)\ /Y /S /EXCLUDE:$(ProjectDir)exclude_files.txt
 </PostBuildEvent>
   </PropertyGroup>
   <Target Name="AfterClean" AfterTargets="Clean">
-    <Message Text="Cleaning other files..."/>
-    <Exec Command="$(ProjectDir)\clean.cmd $(ProjectDir)"/>
+    <Message Text="Cleaning other files..." />
+    <Exec Command="$(ProjectDir)\clean.cmd $(ProjectDir)" />
   </Target>
 </Project>

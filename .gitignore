@@ -3,6 +3,7 @@
 
 # Directories
 Additional
+.vs
 
 # Compiled Object files
 bin
@@ -35,3 +36,4 @@ obj
 *.exe
 *.out
 *.app
+*.sbmi

@@ -13,8 +13,8 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>50</Mass>
-      <Volume>20</Volume>
+      <Mass>35.2</Mass>
+      <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
@@ -32,10 +32,10 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>100</Mass>
-      <Volume>20</Volume>
+      <Mass>35.2</Mass>
+      <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
-      <MaxIntegrity>150</MaxIntegrity>
+      <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
     </Component>
 
@@ -51,10 +51,10 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>50</Mass>
-      <Volume>200</Volume>
+      <Mass>35.2</Mass>
+      <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
-      <MaxIntegrity>200</MaxIntegrity>
+      <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
     </Component>
 
@@ -70,10 +70,10 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>400</Mass>
-      <Volume>20</Volume>
+      <Mass>35.2</Mass>
+      <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
-      <MaxIntegrity>250</MaxIntegrity>
+      <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
     </Component>
 
@@ -89,10 +89,10 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>800</Mass>
-      <Volume>20</Volume>
+      <Mass>35.2</Mass>
+      <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
-      <MaxIntegrity>300</MaxIntegrity>
+      <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
     </Component>
 

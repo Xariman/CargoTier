@@ -19,8 +19,8 @@
       <Components>
         <Component Subtype="InteriorPlate" Count="2" />
         <Component Subtype="Construction" Count="1" />
-        <Component Subtype="Computer" Count="1" />
         <Component Subtype="SpaceExtensionDeviceMK3" Count="4" />
+        <Component Subtype="Computer" Count="1" />
         <Component Subtype="Motor" Count="1" />
         <Component Subtype="Display" Count="1" />
         <Component Subtype="InteriorPlate" Count="1" />
@@ -66,8 +66,8 @@
       <Components>
         <Component Subtype="InteriorPlate" Count="20" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="Computer" Count="4" />
         <Component Subtype="SpaceExtensionDeviceMK3" Count="34" />
+        <Component Subtype="Computer" Count="4" />
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="Display" Count="1" />
         <Component Subtype="InteriorPlate" Count="10" />
@@ -112,8 +112,8 @@
       <Components>
         <Component Subtype="InteriorPlate" Count="55" />
         <Component Subtype="Construction" Count="25" />
-        <Component Subtype="Computer" Count="6" />
         <Component Subtype="SpaceExtensionDeviceMK4" Count="96" />
+        <Component Subtype="Computer" Count="6" />
         <Component Subtype="Motor" Count="8" />
         <Component Subtype="Display" Count="1" />
         <Component Subtype="InteriorPlate" Count="20" />
@@ -161,8 +161,8 @@
         <Component Subtype="SmallTube" Count="20" />
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="Display" Count="1" />
-        <Component Subtype="Computer" Count="2" />
         <Component Subtype="SpaceExtensionDeviceMK4" Count="96" />
+        <Component Subtype="Computer" Count="2" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="InteriorPlate" Count="10" />
       </Components>
@@ -212,8 +212,8 @@
         <Component Subtype="SmallTube" Count="60" />
         <Component Subtype="Motor" Count="20" />
         <Component Subtype="Display" Count="1" />
-        <Component Subtype="Computer" Count="8" />
         <Component Subtype="SpaceExtensionDeviceMK5" Count="1296" />
+        <Component Subtype="Computer" Count="8" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="InteriorPlate" Count="60" />
       </Components>

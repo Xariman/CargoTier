@@ -13,11 +13,13 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>35.2</Mass>
+      <Mass>27.7</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>100</MaxIntegrity>
-      <DropProbability>0.1</DropProbability>
+      <DropProbability>0.7</DropProbability>
+      <Health>35</Health>
     </Component>
     
     <Component>
@@ -32,11 +34,13 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>35.2</Mass>
+      <Mass>26.15</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>100</MaxIntegrity>
-      <DropProbability>0.1</DropProbability>
+      <DropProbability>0.6</DropProbability>
+      <Health>30</Health>
     </Component>
 
     <Component>
@@ -51,11 +55,13 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>35.2</Mass>
+      <Mass>24.36</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>100</MaxIntegrity>
-      <DropProbability>0.1</DropProbability>
+      <DropProbability>0.5</DropProbability>
+      <Health>25</Health>
     </Component>
 
     <Component>
@@ -70,11 +76,13 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>35.2</Mass>
+      <Mass>22.07</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>100</MaxIntegrity>
-      <DropProbability>0.1</DropProbability>
+      <DropProbability>0.4</DropProbability>
+      <Health>20</Health>
     </Component>
 
     <Component>
@@ -89,11 +97,13 @@
         <Y>0.4</Y>
         <Z>0.4</Z>
       </Size>
-      <Mass>35.2</Mass>
+      <Mass>19.55</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\sed_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>100</MaxIntegrity>
-      <DropProbability>0.1</DropProbability>
+      <DropProbability>0.3</DropProbability>
+      <Health>10</Health>
     </Component>
 
   </Components>

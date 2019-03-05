@@ -2,14 +2,14 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     
-    <!-- Region Cargo Container-->
+    <!-- Region Cargo Container tier 6 -->
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>SmallBlockSmallContainer</SubtypeId>
+        <SubtypeId>SmallBlockSmallContainerTier6</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_SmallCargoContainer</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <DisplayName>Small Cargo Container x32</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\containerx32.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -19,6 +19,7 @@
       <Components>
         <Component Subtype="InteriorPlate" Count="2" />
         <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SpaceExtensionDeviceMK3" Count="4" />
         <Component Subtype="Computer" Count="1" />
         <Component Subtype="Motor" Count="1" />
         <Component Subtype="Display" Count="1" />
@@ -37,47 +38,25 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockSmallContainerTier2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockSmallContainerTier3</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockSmallContainerTier4</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockSmallContainerTier5</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockSmallContainerTier6</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>SmallCargoContainer</BlockPairName>
+      <BlockPairName>SmallCargoContainerTier6</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>
+      <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>SmallBlockMediumContainer</SubtypeId>
+        <SubtypeId>SmallBlockMediumContainerTier6</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_MediumCargoContainer</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <DisplayName>Medium Cargo Container x32</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_mediumx32.dds</Icon>
       <Description>Description_MediumCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -87,6 +66,7 @@
       <Components>
         <Component Subtype="InteriorPlate" Count="20" />
         <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SpaceExtensionDeviceMK3" Count="34" />
         <Component Subtype="Computer" Count="4" />
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="Display" Count="1" />
@@ -105,47 +85,25 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockMediumContainerTier2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockMediumContainerTier3</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockMediumContainerTier4</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockMediumContainerTier5</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockMediumContainerTier6</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>MediumCargoContainer</BlockPairName>
+      <BlockPairName>MediumCargoContainerTier6</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <BuildTimeSeconds>55</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>
+      <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>SmallBlockLargeContainer</SubtypeId>
+        <SubtypeId>SmallBlockLargeContainerTier6</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_LargeCargoContainer</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <DisplayName>Large Cargo Container x32</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_largex32.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -155,6 +113,7 @@
       <Components>
         <Component Subtype="InteriorPlate" Count="55" />
         <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SpaceExtensionDeviceMK4" Count="96" />
         <Component Subtype="Computer" Count="6" />
         <Component Subtype="Motor" Count="8" />
         <Component Subtype="Display" Count="1" />
@@ -173,46 +132,24 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockLargeContainerTier2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockLargeContainerTier3</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockLargeContainerTier4</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockLargeContainerTier5</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>SmallBlockLargeContainerTier6</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>LargeCargoContainer</BlockPairName>
+      <BlockPairName>LargeCargoContainerTier6</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <BuildTimeSeconds>70</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>
+      <PCU>1</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>LargeBlockSmallContainer</SubtypeId>
+        <SubtypeId>LargeBlockSmallContainerTier6</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_SmallCargoContainer</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <DisplayName>Small Cargo Container x32</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\containerx32.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -226,6 +163,7 @@
         <Component Subtype="SmallTube" Count="20" />
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="Display" Count="1" />
+        <Component Subtype="SpaceExtensionDeviceMK4" Count="96" />
         <Component Subtype="Computer" Count="2" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="InteriorPlate" Count="10" />
@@ -244,47 +182,25 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockSmallContainerTier2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockSmallContainerTier3</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockSmallContainerTier4</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockSmallContainerTier5</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockSmallContainerTier6</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>SmallCargoContainer</BlockPairName>
+      <BlockPairName>SmallCargoContainerTier6</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>
+      <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>LargeBlockLargeContainer</SubtypeId>
+        <SubtypeId>LargeBlockLargeContainerTier6</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_LargeCargoContainer</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
+      <DisplayName>Large Cargo Container x32</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_largex32.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -298,6 +214,7 @@
         <Component Subtype="SmallTube" Count="60" />
         <Component Subtype="Motor" Count="20" />
         <Component Subtype="Display" Count="1" />
+        <Component Subtype="SpaceExtensionDeviceMK5" Count="546" />
         <Component Subtype="Computer" Count="8" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="InteriorPlate" Count="60" />
@@ -316,38 +233,16 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockLargeContainerTier2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockLargeContainerTier3</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockLargeContainerTier4</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockLargeContainerTier5</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockLargeContainerTier6</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>LargeCargoContainer</BlockPairName>
+      <BlockPairName>LargeCargoContainerTier6</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <BuildTimeSeconds>115</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>      
+      <PCU>1</PCU>      
     </Definition>
     <!-- End Region Cargo Container-->
 	</CubeBlocks>

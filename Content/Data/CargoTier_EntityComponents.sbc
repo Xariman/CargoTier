@@ -206,6 +206,89 @@
       </Id>
       <Size x="7.5" y="7.5" z="60" />
     </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SmallBlockSmallContainerTier5</SubtypeId>
+      </Id>
+      <Size x="0.5" y="0.5" z="8" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SmallBlockMediumContainerTier5</SubtypeId>
+      </Id>
+      <Size x="1.5" y="1.5" z="24" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SmallBlockLargeContainerTier5</SubtypeId>
+      </Id>
+      <Size x="2.5" y="2.5" z="40" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>LargeBlockSmallContainerTier5</SubtypeId>
+      </Id>
+      <Size x="2.5" y="2.5" z="40" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>LargeBlockLargeContainerTier5</SubtypeId>
+      </Id>
+      <Size x="7.5" y="7.5" z="120" />
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SmallBlockSmallContainerTier6</SubtypeId>
+      </Id>
+      <Size x="0.5" y="0.5" z="16" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SmallBlockMediumContainerTier6</SubtypeId>
+      </Id>
+      <Size x="1.5" y="1.5" z="48" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SmallBlockLargeContainerTier6</SubtypeId>
+      </Id>
+      <Size x="2.5" y="2.5" z="80" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>LargeBlockSmallContainerTier6</SubtypeId>
+      </Id>
+      <Size x="2.5" y="2.5" z="80" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>LargeBlockLargeContainerTier6</SubtypeId>
+      </Id>
+      <Size x="7.5" y="7.5" z="240" />
+    </EntityComponent>
+    
     
   </EntityComponents>
 

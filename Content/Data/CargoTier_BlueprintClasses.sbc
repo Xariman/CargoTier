@@ -4,22 +4,32 @@
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerTier2" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerTier3" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerTier4" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerTier5" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerTier6" />
   
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerTier2" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerTier3" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerTier4" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerTier5" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerTier6" />
   
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier2" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier3" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier4" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier5" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier6" />
 
 	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerTier2" />
 	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerTier3" />
 	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerTier4" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerTier5" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerTier6" />
 	
 	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier2" />
 	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier3" />
 	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier4" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier5" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockLargeContainerTier6" />
 
 	<Entry Class="Components" BlueprintSubtypeId="SpaceExtensionDeviceMK1" />
 	<Entry Class="Components" BlueprintSubtypeId="SpaceExtensionDeviceMK2" />

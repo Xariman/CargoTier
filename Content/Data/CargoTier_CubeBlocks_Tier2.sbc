@@ -2,13 +2,13 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     
-    <!-- Region Cargo Container Tier 2-->
+    <!-- Region Cargo Container Tier 2 -->
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockSmallContainerTier2</SubtypeId>
       </Id>
-      <DisplayName>Small Cargo Container Tier 2</DisplayName>
+      <DisplayName>Small Cargo Container x2</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\containerx2.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
@@ -55,7 +55,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainerTier2</SubtypeId>
       </Id>
-      <DisplayName>Medium Cargo Container Tier 2</DisplayName>
+      <DisplayName>Medium Cargo Container x2</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\container_mediumx2.dds</Icon>
       <Description>Description_MediumCargoContainer</Description>
       <CubeSize>Small</CubeSize>
@@ -89,19 +89,20 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <BuildTimeSeconds>19</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>5</PCU>
+      <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainerTier2</SubtypeId>
       </Id>
-      <DisplayName>Large Cargo Container Tier 2</DisplayName>
+      <DisplayName>Large Cargo Container x2</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\container_largex2.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Small</CubeSize>
@@ -132,7 +133,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
       </BuildProgressModels>
       <BlockPairName>LargeCargoContainerTier2</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -146,7 +148,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockSmallContainerTier2</SubtypeId>
       </Id>
-      <DisplayName>Small Cargo Container Tier 2</DisplayName>
+      <DisplayName>Small Cargo Container x2</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\containerx2.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Large</CubeSize>
@@ -197,7 +199,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainerTier2</SubtypeId>
       </Id>
-      <DisplayName>Large Cargo Container Tier 2</DisplayName>
+      <DisplayName>Large Cargo Container x2</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\container_largex2.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Large</CubeSize>
@@ -212,7 +214,7 @@
         <Component Subtype="SmallTube" Count="60" />
         <Component Subtype="Motor" Count="20" />
         <Component Subtype="Display" Count="1" />
-        <Component Subtype="SpaceExtensionDeviceMK3" Count="1296" />
+        <Component Subtype="SpaceExtensionDeviceMK3" Count="546" />
         <Component Subtype="Computer" Count="8" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="InteriorPlate" Count="60" />

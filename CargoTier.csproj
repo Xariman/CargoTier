@@ -73,7 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CargoTier.cs" />
+    <None Include="CargoTier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="exclude_files.txt" />

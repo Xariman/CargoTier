@@ -113,7 +113,7 @@
       <Components>
         <Component Subtype="InteriorPlate" Count="55" />
         <Component Subtype="Construction" Count="25" />
-        <Component Subtype="SpaceExtensionDeviceMK3" Count="96" />
+        <Component Subtype="SpaceExtensionDeviceMK2" Count="96" />
         <Component Subtype="Computer" Count="6" />
         <Component Subtype="Motor" Count="8" />
         <Component Subtype="Display" Count="1" />
@@ -163,7 +163,7 @@
         <Component Subtype="SmallTube" Count="20" />
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="Display" Count="1" />
-        <Component Subtype="SpaceExtensionDeviceMK3" Count="96" />
+        <Component Subtype="SpaceExtensionDeviceMK2" Count="96" />
         <Component Subtype="Computer" Count="2" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="InteriorPlate" Count="10" />
@@ -214,7 +214,7 @@
         <Component Subtype="SmallTube" Count="60" />
         <Component Subtype="Motor" Count="20" />
         <Component Subtype="Display" Count="1" />
-        <Component Subtype="SpaceExtensionDeviceMK4" Count="546" />
+        <Component Subtype="SpaceExtensionDeviceMK2" Count="546" />
         <Component Subtype="Computer" Count="8" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="InteriorPlate" Count="60" />
